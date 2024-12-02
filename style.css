@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffe4e1; /* Light pink background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    
+  }
+  
+  header {
+    position: relative;
+    padding: 1rem;
+  }
+  
+  nav {
+    position: absolute;
+    top: 1.5rem; /* Moves the navbar slightly down */
+    right: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Aligns navigation items to the right */
+  }
+  
+  nav ul li {
+    margin-left: 1.5rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  .container {
+    width: 100%;
+    max-width: 100%; /* Adjust based on your design */
+    margin-bottom: 2rem;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .image-container {
+    width: 100%;
+    max-width: 100%; /* Adjust based on your design */
+    margin-bottom: 2rem;
+  }
+  
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  main {
+    padding: 2rem;
+    text-align: center;
+    flex: 1 0 auto;
+  }
+
+.Experiences{
+width: 100%;
+margin:auto;
+text-align:center;
+padding-top: 100px;
+background-color: rgb(238, 184, 193);
+padding-bottom: 50px;
+}
+h1{
+font-size: 36px;
+font-weight: 600;
+color: rgb(152, 101, 110);
+}
+p{
+color: black;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+padding: 10px;
+}
+.row{
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.Experiences-col{
+flex-basis: 29%;
+background: rgb(241, 171, 186);
+border-radius: 10px;
+margin-bottom: 5%;
+padding: 20px;
+box-sizing: border-box;
+}
+h3{
+text-align: center;
+font-weight: 600;
+margin: 10px 0;
+color: black;
+}
+.Experiences-col:hover{
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 720px){
+.row{
+    flex-direction:column;
+}
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Optional: limits the form's width */
+  margin: 0 auto; /* Centers the form horizontally */
+}
+
+form label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #eda2b2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #d771b3;
+}
+
+  
+  
+  footer {
+    
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: white; /* Light pink background */
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  footer a {
+    display: inline-block;
+    margin: 0.5rem 0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #ff5b72; /* Hover color */
+  }
+  
+  footer img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+  }
+
+  footer a {
+    color: black; /* Sets link color to blue */
+  }
+  
+  footer a:hover {
+    color: rgb(251, 191, 201); /* Sets link color to red on hover */
+  }
+  
